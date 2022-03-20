@@ -1,0 +1,21 @@
+body{
+    background-image: url(https://source.unsplash.com/1600x900/?project);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+h1{
+    text-align: center;
+    background-color: black;
+    margin-top: 0;
+    padding: 20px;
+    color: white;
+}
+.register{
+    color: white;
+}
+.reg{
+    background-color: navy;
+    border-radius: 10px;
+    border: 2px solid white;
+    padding: 15px;
+}
