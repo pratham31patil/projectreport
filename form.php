@@ -1,10 +1,6 @@
 <?php
 include('database.php');
-<<<<<<< HEAD
 $msg="";
-=======
-
->>>>>>> b13ec8220db868164d3542c8eeb8d849733dc314
 if(isset($_POST['submit']))
 {
 $title=$_POST['title'];
@@ -18,12 +14,8 @@ $filename = $_FILES["ppt"]["name"];
 
 
 $url=$_POST['url'];
-<<<<<<< HEAD
   $query1="INSERT INTO `projectsubmission`(`title`, `members`, `ppt`, `word`, `url`) VALUES ('$title','$members','$filename','$filename1','$url')";
   $msg="Thanks,Your response has been submitted ";
-=======
-  $query1="INSERT INTO `projectsubmission`(`title`, `members`, `ppt`, `word`, `url`) VALUES ('$title','$members','$folder','$folder1','$url')";
->>>>>>> b13ec8220db868164d3542c8eeb8d849733dc314
   $run=mysqli_query($con,$query1); 
    move_uploaded_file($tempname, $folder);
     
