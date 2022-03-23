@@ -35,12 +35,12 @@ while($rows=mysqli_fetch_assoc($result))
 {
     ?>
     <tr>
-    <td><?php echo $rows['no']; ?></td>
-    <td><?php echo $rows['title']; ?></td>
-    <td><?php echo $rows['members']; ?></td>
+    <td><?php echo $rows['no'] ?></td>
+    <td><?php echo $rows['title'] ?></td>
+    <td><?php echo $rows['members'] ?></td>
     <td><a href="uploads/<?php echo $rows['ppt'] ?>"><?php echo $rows['ppt'] ?></a></td>
     <td><a href="uploads/<?php echo $rows['word'] ?>"><?php echo $rows['word'] ?></a></td>
-    <td><?php echo $rows['url']; ?></td>
+    <td><a href="<?php echo $rows['url'] ?>"><?php echo $rows['url'] ?></a></td>
 </tr>
 <?php
 }
