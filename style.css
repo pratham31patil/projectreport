@@ -1,5 +1,5 @@
 body{
-    background-image: url(project1.jpg);
+    background-image:linear-gradient(grey,white);
     background-repeat: no-repeat ;
     height: 100vh;
     background-size: 100% 1000px;
@@ -8,18 +8,31 @@ body{
 }
 h1{
     text-align: center;
-    background-color: black;
     margin-top: 0;
     padding: 20px;
-    color: white;
+    color: navy;
     font-weight: bold;
 }
 .register{
-    color: white;
+    color: navy;
+    margin-top:20px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 25px;
 }
 .reg{
-    background-color: navy;
+    background-color: lightgray;
     border-radius: 10px;
-    border: 2px solid white;
+    border: 2px solid black;
     padding: 15px;
+}
+.required:after {
+    content:" *";
+    color: red;
+
+}
+.form-control{
+    padding: 30px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+
 }
